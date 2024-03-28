@@ -203,7 +203,7 @@ jQuery.fn = jQuery.prototype = {
 
 		// Return all the elements in a clean array
 		if ( num == null ) {
-			return slice.call( this );
+			return slice.call( this_call );
 		}
 
 		// Return just the one element from the set
